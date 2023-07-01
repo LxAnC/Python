@@ -48,4 +48,21 @@
 # a,b=b,a
 # print(a,b)
 
-# 比较运算符
+# 比较运算符 结果都是bool类型
+# …………各种大于小于
+# 重点！！
+a=b=10
+# 一个变量由三个部分组成 地址，类型，值
+# ==比较的是他们的值，
+# 比较对象的地址用is
+# print(a==b) # True
+# print(a is b) #True
+list1=[11,22,33,44]
+list2=[11,22,33,44]
+print(list1==list2)  #值  True
+print(list1 is list2)  #id False
+print(id(list1))
+print(id(list2))
+print(a is not b) #False a的id和b的id是相等的
+print(list1 is not list2) #True list1和list2的id是不相等的
+
