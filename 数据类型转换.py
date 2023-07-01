@@ -14,4 +14,8 @@ b=198.9
 c=False
 print(type(a),type(b),type(c))
 print(str(a),str(b),str(c))
-
+print('---------------------------int()将其他类型转成int类型-----')
+d=True
+e=2.2323
+f='asdadas'
+print(d,e,f)
