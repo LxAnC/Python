@@ -93,3 +93,10 @@ while a<3:
        break
     else:
         print('不正确')
+
+# continue语句
+# 要求输出1到50之间所有不是5的倍数
+for item in range(1,51):
+    if item%5==0:
+        continue
+    print(item)
