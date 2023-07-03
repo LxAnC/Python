@@ -7,4 +7,3 @@ print(lst)
 
 # 集合生成式
 s={ i*i for i in range(10)} # 顺序无序但内容一样
-print(s)
