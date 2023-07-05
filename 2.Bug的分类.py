@@ -25,7 +25,7 @@ try: # 捕获异常
 except ZeroDivisionError: # 如果没输值的话就不会走这里的错误
     print("1")
 except ValueError: # 上一次处理不了的情况用这个去过滤错误
-    print('只能输入数字串')
+    print('只能输入数字')
 # except BaseException: # 最高级的过滤
 
 print('程序错误')
