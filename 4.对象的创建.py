@@ -2,7 +2,7 @@
 # 作者：LxAnC
 class Student1:
     # 定义属性
-    native_pace = '吉林'
+    native_pace = '吉林' # 类属性
 
     # 实例方法
     def eat(self):  # 在类之外定义的函数，在类之内的就是方法
