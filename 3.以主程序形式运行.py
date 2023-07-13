@@ -3,4 +3,8 @@
 
 def add(a,b):
     return a+b
-print(add(10,20))
+
+# 解决方法
+# main再按回车
+if __name__=='__main__':
+    print(add(10,20))
